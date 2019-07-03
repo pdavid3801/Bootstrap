@@ -87,8 +87,13 @@ img {
   padding: 2rem;
 }
 
-.table {
-  padding-left: 5rem;
+@media (min-width: 680px) {
+  
+  .third-section {
+    display: inline-block;
+    text-align: center;
+    padding-left: 35%;
+  }
 }
 
 /* ==== Contact section ==== */
@@ -112,6 +117,15 @@ img {
   font-family: 'Karla', 'sans-serif';
   font-style: italic;
   color: navy;
+}
+
+@media (min-width: 680px) {
+  .wrapper h3 {
+    text-align: center;
+    position: relative;
+    top: -1em;
+    left: 0;
+  }
 }
 
       /* Social buttons */
@@ -174,5 +188,19 @@ img {
   100% {
     top: -10%;
     left: -10%;
+  }
+}
+
+@media (min-width: 680px) {
+
+  .btn {
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .btn i {
+    line-height: 60px;
+    font-size: 1.7rem;
   }
 }
