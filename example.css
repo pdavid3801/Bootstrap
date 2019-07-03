@@ -52,3 +52,17 @@ img {
   padding-right: 1rem;
   padding-bottom: 1rem;
 }
+
+
+/* ==== Third section ==== */
+
+.third-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.table {
+  padding-left: 5rem;
+}
+
+
