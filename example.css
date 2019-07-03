@@ -1,35 +1,54 @@
 img {
-    height: 40%;
-    width: 40%;
-    border: 1px solid white;
-    border-radius: 20px;
+  height: 50%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
+/* ==== First section ==== */
+
 .first-section {
-    background-color: ghostwhite;
-    text-align: center;
-    font-family: 'Karla', 'sans-serif';
-    color: dimgray;
+  background-color: ghostwhite;
+  text-align: center;
+  font-family: 'Karla', 'sans-serif';
+  color: dimgray;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .first-section h4 {
-    font-size: 2rem;
-    padding: 2rem;
-    font-family: 'Nunito', 'sans-serif';
-    letter-spacing: .1rem;
+  font-size: 2rem;
+  padding: 2rem;
+  font-family: 'Nunito', 'sans-serif';
+  letter-spacing: .1rem;
 }
 
+.first-section p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* ==== Second section ==== */
+
 .second-section {
-    background-color: lightgray;
-    text-align: center;
-    font-family: 'Karla', 'sans-serif';
-    color: teal;
+  background-color: lightgray;
+  text-align: center;
+  font-family: 'Karla', 'sans-serif';
+  color: teal;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .second-section h4 {
-    font-size: 2rem;
-    margin-top: 1rem;
-    padding: 2rem;
-    font-family: 'Nunito', 'sans-serif';
-    letter-spacing: 0.1rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  font-family: 'Nunito', 'sans-serif';
+  letter-spacing: 0.1rem;
+}
+
+.second-section p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
