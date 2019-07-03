@@ -1,9 +1,35 @@
 img {
     height: 40%;
     width: 40%;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 .first-section {
     background-color: ghostwhite;
     text-align: center;
+    font-family: 'Karla', 'sans-serif';
+    color: dimgray;
+}
+
+.first-section h4 {
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: 'Nunito', 'sans-serif';
+    letter-spacing: .1rem;
+}
+
+.second-section {
+    background-color: lightgray;
+    text-align: center;
+    font-family: 'Karla', 'sans-serif';
+    color: teal;
+}
+
+.second-section h4 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    font-family: 'Nunito', 'sans-serif';
+    letter-spacing: 0.1rem;
 }
