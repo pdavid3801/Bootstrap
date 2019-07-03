@@ -204,3 +204,8 @@ img {
     font-size: 1.7rem;
   }
 }
+
+.footer {
+  line-height: 8vh;
+  text-align: center;
+}
