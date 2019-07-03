@@ -1,3 +1,38 @@
+
+/* ==== Header ==== */
+
+.header-container {
+  background: url('https://raw.githubusercontent.com/pdavid3801/Bootstrap/header/header-picture.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 6rem;
+  padding-left: 10rem;
+}
+
+.wrapper {
+  
+  text-align: center;
+  
+}
+
+.header-content {
+  text-align: center;
+  color: ghostwhite;
+  font-family: 'Karla', 'sans-serif';
+  font-style: italic;
+}
+
+.header-content h1 {
+  padding: 2rem;
+  letter-spacing: .3rem;
+  font-family: 'Nunito', 'sans-serif';
+  text-align: center;
+}
+
+/* ==== IMG ==== */
+
 img {
   height: 50%;
   width: 50%;
@@ -49,13 +84,22 @@ img {
   font-family: 'Karla', 'sans-serif';
   color: teal;
   margin-bottom: 1rem;
+<<<<<<< HEAD
+  padding-bottom: .5rem;
+  margin-top: 2rem;
+=======
   padding-bottom: 1rem;
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
 }
 
 .second-section h4 {
   font-size: 2rem;
   margin-top: 1rem;
+<<<<<<< HEAD
+  padding: 1rem;
+=======
   padding: 2rem;
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
   font-family: 'Nunito', 'sans-serif';
   letter-spacing: 0.1rem;
 }
@@ -92,7 +136,10 @@ img {
   .third-section {
     display: inline-block;
     text-align: center;
+<<<<<<< HEAD
+=======
     padding-left: 35%;
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
   }
 }
 
@@ -123,7 +170,11 @@ img {
   .wrapper h3 {
     text-align: center;
     position: relative;
+<<<<<<< HEAD
+    top: -1rem;
+=======
     top: -1em;
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
     left: 0;
   }
 }
@@ -184,7 +235,10 @@ img {
     left: 10%;
     top: -30%;
   }
+<<<<<<< HEAD
+=======
 
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
   100% {
     top: -10%;
     left: -10%;
@@ -208,4 +262,8 @@ img {
 .footer {
   line-height: 8vh;
   text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c0c061409cc0e6e40591bab90cc310aca10bd2d1
