@@ -28,6 +28,19 @@ img {
   padding-right: 1rem;
 }
 
+@media (min-width: 680px) {
+
+  .first-section h4 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .first-section p {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+
 /* ==== Second section ==== */
 
 .second-section {
@@ -51,6 +64,19 @@ img {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (min-width: 680px) {
+
+  .second-section p {
+    display: block;
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -79,6 +105,15 @@ img {
   vertical-align: middle;
 }
 
+.wrapper h3 {
+  position: relative;
+  top: -1.5rem;
+  left: 1rem;
+  font-family: 'Karla', 'sans-serif';
+  font-style: italic;
+  color: navy;
+}
+
       /* Social buttons */
 
 .social-buttons {
@@ -93,7 +128,7 @@ img {
   margin: .5rem;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: teal;
+  color: navy;
   overflow: hidden;
   position: relative;
 }
